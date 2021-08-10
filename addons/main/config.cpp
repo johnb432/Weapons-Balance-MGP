@@ -1,9 +1,11 @@
+#include "script_component.hpp"
+
 class CfgPatches {
     class ADDON {
-        name = "FKM - Fix Project BLUFOR";
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "milgp_data",
             "milgp_headgear",
@@ -13,10 +15,7 @@ class CfgPatches {
             "milgp_vests",
             "milgp_vests_cfg"
         };
-        author = "FK Gaming";
-        authors[] = {
-            "johnb43"
-        };
+        author = "johnb43";
     };
 };
 
