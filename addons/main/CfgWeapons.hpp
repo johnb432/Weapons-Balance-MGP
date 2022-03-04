@@ -1,7 +1,6 @@
 class CfgWeapons {
     class ItemCore;
-    class InventoryItem_Base_F;
-    class VestItem: InventoryItem_Base_F {};
+    class VestItem;
     class milgp_v_marciras_hgunner_cb: ItemCore {
         class ItemInfo: VestItem {
             mass = 80;
